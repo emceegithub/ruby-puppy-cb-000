@@ -7,6 +7,7 @@ class Dog
   
   def self.clear_all
     @all = []
+    return @all
   end
   
   
