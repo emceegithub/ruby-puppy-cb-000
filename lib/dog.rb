@@ -14,4 +14,19 @@ class Dog
     return @name
   end
   
+  def self.all
+    @@all.each do |element|
+      puts element.name
+    end
+  end
 end
+
+
+
+
+
+
+
+
+
+
