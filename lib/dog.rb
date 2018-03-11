@@ -9,5 +9,8 @@ class Dog
     return @all.clear
   end
   
+  def self.all
+    
+  end
   
 end
