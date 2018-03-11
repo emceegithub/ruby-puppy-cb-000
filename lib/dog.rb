@@ -6,8 +6,8 @@ class Dog
     @@all << self
   end
   
-  def self.zzz
-    puts @@all
+  def self.clear_all
+    @@all.clear
   end
   
 end
