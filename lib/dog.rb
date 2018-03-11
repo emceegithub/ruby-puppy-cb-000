@@ -10,4 +10,8 @@ class Dog
     @@all.clear
   end
   
+  def name
+    return @name
+  end
+  
 end
